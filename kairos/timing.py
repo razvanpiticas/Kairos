@@ -1,7 +1,7 @@
 # source: http://stackoverflow.com/a/1557906/6009280
 
 import atexit
-from time import clock
+from time import perf_counter as clock
 from functools import reduce
 
 
